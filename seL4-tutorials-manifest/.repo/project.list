@@ -1,0 +1,7 @@
+kernel
+libs/libmuslc
+projects/seL4_libs
+projects/sel4-tutorials
+projects/sel4-tutorials-manifest
+projects/tools
+projects/util_libs

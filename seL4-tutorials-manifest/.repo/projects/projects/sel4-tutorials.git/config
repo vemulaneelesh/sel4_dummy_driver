@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "current"]
+	url = https://github.com/SEL4PROJ/sel4-tutorials.git
+	projectname = sel4-tutorials.git
+	fetch = +refs/heads/*:refs/remotes/current/*

@@ -1,0 +1,16 @@
+a745a6bd6cc0f07631376802e826d5a3598c2781		branch 'arm_hyp' of https://github.com/seL4/seL4
+2fa6618dd13409c839876f96032cc6301b325735		branch 'experimental' of https://github.com/seL4/seL4
+73a54b0cbcdc12fd087ddb2c51aa15f3e1c27a7e		branch 'master' of https://github.com/seL4/seL4
+9f35cedf3af62e30573ed2aa33001619abe47594		branch 'rt' of https://github.com/seL4/seL4
+ec0a41fed7d7f937b57bd2ccea562d886196e2b0		branch 'x86_64' of https://github.com/seL4/seL4
+2a4ee9ba912c195f526163dca27d48e06d8a81f8		tag '2.0.0' of https://github.com/seL4/seL4
+7f2fc76ce2222ce23f4a66ec2d34516146125015	not-for-merge	tag '0.0.1-rt-dev' of https://github.com/seL4/seL4
+e88fe4e356d3f1858dd142bf2da8ae393824a0c1	not-for-merge	tag '1.0.3' of https://github.com/seL4/seL4
+5f30512da2237a065d6dfb1eae14c9e42ca20156	not-for-merge	tag '1.0.4' of https://github.com/seL4/seL4
+0115ad1d0d7a871d637f8ceb79e37b46f9981249	not-for-merge	tag '2.1.0' of https://github.com/seL4/seL4
+634d4681a88bdb43fa1e1f8fd8c330f43f6d6712	not-for-merge	tag '3.0.0' of https://github.com/seL4/seL4
+94e13b7e605676b4d5bd61497d38f0858cf2bb2f	not-for-merge	tag '3.0.1' of https://github.com/seL4/seL4
+93aa7e3264041c8aeaf53af2d523ac59a3a37ef1	not-for-merge	tag 'API-experimental-01-03--release-2014-07-29' of https://github.com/seL4/seL4
+764a3c8dfbb5f2a09afe18e3bfb449799a55f4a9	not-for-merge	tag 'API-experimental-01-03--release-2014-08-10' of https://github.com/seL4/seL4
+2315f4ce797b8bd0a8fd9efc5ed92d02d4a4baa6	not-for-merge	tag 'API-master-01-03--release-2014-07-29' of https://github.com/seL4/seL4
+4961cb66a484b4d3a436ac72a6fc286b23912e52	not-for-merge	tag 'API-master-01-03--release-2014-08-10' of https://github.com/seL4/seL4
