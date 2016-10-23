@@ -1,0 +1,30 @@
+ make ARCH=arm CROSS_COMPILE=arm-xilinx-linux-gnueabi- xilinx_zynq_defconfig
+ export PATH=$PATH:/opt/Xilinx/SDK/2014.4/gnu/arm/lin/bin/
+  make ARCH=arm CROSS_COMPILE=arm-xilinx-linux-gnueabi- UIMAGE_LOADADDR=0x00008000 uImage
+
+  u-boot
+
+  export arch=ARM
+  export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+  source /opt/
+
+
+  mkimage -a 0x00008000 -e 0x00008000 -C none -A arm -T kernel -O qnx -d $INPUT_FILE $OUTPUT_FILE
+
+
+
+  Alex>     I download seL4test, and then run it. Is the log correct?
+
+
+Yes it's correct.  Those allocation failures are where the sel4test
+driver is allocating untyped memory until it fails, then retrying with
+a smaller size, from allocate_untypeds() in
+apps/sel4test-driver/src/main.c  It's called from populate_untypeds()
+with the initial size requested as UINT_MAX, to get all memory into
+the allocation pool.
+
+
+fatload mmc 0 0x3000000 uImage
+fatload mmc 0 0x2A00000 devicetree.dtb
+bootm 0x3000000 0x2000000 0x2A00000
+
